@@ -147,3 +147,21 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 174ms (Views: 161.7ms | ActiveRecord: 0.0ms | Allocations: 47338)
 
 
+Started GET "/about" for 127.0.0.1 at 2022-09-26 20:51:38 -0400
+Processing by PagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 0.4ms | Allocations: 126)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 14997)
+Completed 200 OK in 25ms (Views: 22.1ms | Allocations: 15962)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-26 20:54:11 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 126)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 3060)
+Completed 200 OK in 12ms (Views: 9.7ms | Allocations: 3901)
+
+

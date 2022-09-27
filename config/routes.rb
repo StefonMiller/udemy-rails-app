@@ -3,7 +3,10 @@ Rails.application.routes.draw do
   # application_controller, can omit the _controller suffix
   # when specifying which one to use. # suffix specifies the
   # action to run in the controller
-  root "pages#home"
 
   # Request -> routes.rb -> appropriate controller -> appropriate view template
+
+  root "pages#home"
+
+  get "about", to: "pages#about"
 end
